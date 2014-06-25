@@ -1,0 +1,26 @@
+{
+  "name": "Project",
+  "version": "0.0.0",
+  "author": {
+    "name": "Author Name",
+    "email": "author@example.com",
+    "url": "http://www.example.com/"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "express": "4.1.1",
+    "morgan": "1.0.0",
+    "body-parser": "1.0.2",
+    "method-override": "1.0.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
